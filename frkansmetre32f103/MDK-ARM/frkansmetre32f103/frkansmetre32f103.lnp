@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"frkansmetre32f103\startup_stm32f103xb.o"
+"frkansmetre32f103\fonts.o"
+"frkansmetre32f103\ssd1306.o"
+"frkansmetre32f103\main.o"
+"frkansmetre32f103\stm32f1xx_it.o"
+"frkansmetre32f103\stm32f1xx_hal_msp.o"
+"frkansmetre32f103\stm32f1xx_hal_gpio_ex.o"
+"frkansmetre32f103\stm32f1xx_hal_i2c.o"
+"frkansmetre32f103\stm32f1xx_hal.o"
+"frkansmetre32f103\stm32f1xx_hal_rcc.o"
+"frkansmetre32f103\stm32f1xx_hal_rcc_ex.o"
+"frkansmetre32f103\stm32f1xx_hal_gpio.o"
+"frkansmetre32f103\stm32f1xx_hal_dma.o"
+"frkansmetre32f103\stm32f1xx_hal_cortex.o"
+"frkansmetre32f103\stm32f1xx_hal_pwr.o"
+"frkansmetre32f103\stm32f1xx_hal_flash.o"
+"frkansmetre32f103\stm32f1xx_hal_flash_ex.o"
+"frkansmetre32f103\stm32f1xx_hal_exti.o"
+"frkansmetre32f103\stm32f1xx_hal_tim.o"
+"frkansmetre32f103\stm32f1xx_hal_tim_ex.o"
+"frkansmetre32f103\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "frkansmetre32f103\frkansmetre32f103.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "frkansmetre32f103.map" -o frkansmetre32f103\frkansmetre32f103.axf
